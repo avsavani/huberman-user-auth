@@ -5,6 +5,7 @@ import {Button} from "@/components/ui/button"
 import { Header } from "@/components/auth/header";
 import { Social } from "@/components/auth/social";
 import { BackButton } from "@/components/auth/back-button";
+import { Form, FormItem, FormLabel, FormControl, FormMessage, FormField } from "@/components/ui/form"
 
 interface CardWrapperProps{
     children: React.ReactNode,
