@@ -2,7 +2,7 @@
 import { LoginButton } from "@/components/auth/login-button";
 import { Button } from "@/components/ui/button";
 import {useRouter} from "next/navigation";
-;
+
 
 export default function Home() {
   const router = useRouter();
@@ -17,7 +17,7 @@ export default function Home() {
         <p className="text-white text-xl">
             A simple authentication service
         </p>
-        <LoginButton>
+        <LoginButton >
           <Button variant="secondary"  size="lg">Sign In</Button>
         </LoginButton>
       </div>
